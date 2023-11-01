@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Sometype+Mono&display=swap"
+        rel="stylesheet">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="title">
+
+            </div>
+            <div class="screen">
+                <input id="input" type="text" placeholder="Expression Here">
+                <div id="ans">solution</div>
+            </div>
+            <div class="buttons">
+                <div class="btn-numbers">
+                    <div class="horizontal">
+                        <button onclick="updateInput(1)">1</button>
+                        <button onclick="updateInput(2)">2</button>
+                        <button onclick="updateInput(3)">3</button>
+                        <button onclick="updateInput('+')">+</button>
+                    </div>
+                    <div class="horizontal">
+                        <button onclick="updateInput(4)">4</button>
+                        <button onclick="updateInput(5)">5</button>
+                        <button onclick="updateInput(6)">6</button>
+                        <button onclick="updateInput('-')">-</button>
+                    </div>
+                    <div class="horizontal">
+                        <button onclick="updateInput(7)">7</button>
+                        <button onclick="updateInput(8)">8</button>
+                        <button onclick="updateInput(9)">9</button>
+                        <button onclick="updateInput('*')">*</button>
+                    </div>
+                    <div class="horizontal">
+                        <button onclick="document.getElementById('input').value = '';">C</button>
+                        <button onclick="updateInput(0)">0</button>
+                        <button id="equalsTo" onclick="findAns()">=</button>
+                        <button onclick="updateInput('/')">÷</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            created by @shriram
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sometype Mono', monospace;
+}
+
+body {
+    /* background-color: aquamarine; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    margin-bottom: 20px;
+}
+
+div.container {
+    width: 300px;
+    height: 550px;
+    background: rgb(0, 0, 0);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.title {
+    width: 300px;
+    height: 7%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: transparent;
+    text-decoration: underline;
+    color: rgb(150, 69, 227);
+    text-shadow: 0px 0px 30px;
+}
+
+div.screen {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: none;
+    outline: none;
+}
+
+input {
+    width: 300px;
+    border: none;
+    outline: none;
+    padding: 30px;
+    /* margin-top: 40px; */
+    background-color: transparent;
+    font-family: 'Sometype Mono', monospace;
+    font-size: 23px;
+    text-align: end;
+    color: bisque;
+    text-shadow: 0px 0px 10px;
+}
+
+div#ans {
+    text-align: end;
+    padding: 30px;
+    padding-bottom: 0;
+    font-size: 35px;
+    color: rgb(150, 69, 227);
+    text-shadow: 0px 0px 10px;
+}
+
+div.buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+div.btn-numbers {
+    display: flex;
+    flex-direction: column;
+}
+
+div.horizontal {
+    margin-bottom: 10px;
+}
+
+button {
+    height: 60px;
+    width: 60px;
+    background-color: transparent;
+    font-size: 25px;
+    margin: 0.5px;
+    border-radius: 10px;
+    border: 1px white;
+    cursor: pointer;
+    color: white;
+
+    box-shadow: 0px 0px 3px;
+    text-shadow: 0px 0px 10px;
+}
+
+/* button:hover {
+    border-radius: 10px;
+    color: aqua;
+    box-shadow: 0px 0px 3px aqua;
+    transition: all 0.1s ease-in-out;
+} */
+
+div.footer {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 13px;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+div.footer:hover {
+    transform: translateY(-4px);
+    transition: all 0.1s ease-out;
+}
