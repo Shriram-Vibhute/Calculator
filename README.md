@@ -1,2 +1,2 @@
 # calculator
-Responsive Calculator App
+Responsive Calculator Web App
